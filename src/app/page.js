@@ -31,7 +31,7 @@ export default function Home() {
           <MapComponent searchLocation={selectedLocation} />
         </Box>
         {/* Right - AI Assistant */}
-        <Box sx={{ width: 360, height: '100%', borderLeft: '1px solid #e2e8f0', flexShrink: 0 }}>
+        <Box sx={{ width: 500, height: '100%', borderLeft: '1px solid #e2e8f0', flexShrink: 0 }}>
           <AIAssistant onPlaceSelect={setSelectedLocation} />
         </Box>
       </Box>
